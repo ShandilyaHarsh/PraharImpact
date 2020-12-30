@@ -6,6 +6,7 @@ import Social from './Social';
 import Guest from './Guest';
 import Card from './card';
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
+import Carousal from './carousal';
 
 function App(){
     return(<div>
@@ -53,7 +54,7 @@ function Home(){
                </div>
            
         
-
+        <Carousal/>   
         <Footer/>
          
         </div>
